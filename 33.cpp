@@ -14,6 +14,7 @@ public:
             if(nums[i] > nums[i + 1]) {
                 index = i;
                 flag = true;
+                break;
             }
         }
         if(target == nums[0]) {
