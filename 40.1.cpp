@@ -4,7 +4,7 @@
 using namespace std;
 
 class Solution {
-    void function(const vector<int>& candidates, int& target, int currentIndex, int currentSum, vector<int> currentArray, vector<vector<int>>& result) {
+    void function(const vector<int>& candidates, int& target, int currentIndex, int currentSum, vector<int>& currentArray, vector<vector<int>>& result) {
         if(currentSum > target) {
             return;
         }
