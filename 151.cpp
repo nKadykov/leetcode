@@ -20,7 +20,7 @@ public:
                 subString += s[i];
             }
         }
-        if(subString.size() > 0 and subString[0]!=' ')
+        if(subString.size() > 0 && subString[0]!=' ')
             resultVector.push_back(subString);
         string resultString = "";
         int count = resultVector.size();
