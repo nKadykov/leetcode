@@ -9,12 +9,12 @@ public:
         string str;
         char arrayNumber[17] = "0123456789abcdef";
         do {
-            str += arrayNumber[number % 16];
+            str = arrayNumber[number % 16] + str;
             number /= 16;
         }
         while(number);
 
-        return {str.rbegin(), str.rend()};
+        return str;
     }
 };
 
