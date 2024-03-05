@@ -2,7 +2,8 @@
 
 class Solution {
     std::string t;
-    int check(int l, int r, int result = 0) {
+    int check(int l, int r) {
+        int result = 0;
         while(l >= 0 && r <= t.size()) {
             if(t[l--] == t[r++]) {
                 result++;
