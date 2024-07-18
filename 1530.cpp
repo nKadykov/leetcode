@@ -56,6 +56,7 @@ int main() {
     TreeNode* node11 = new TreeNode(2, nullptr, node13);
     TreeNode* head1 = new TreeNode(1, node11, node12);
     int distance1 = 3;
+    
 
     TreeNode* node26 = new TreeNode(7);
     TreeNode* node25 = new TreeNode(6);
